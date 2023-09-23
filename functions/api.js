@@ -10,14 +10,14 @@ var bodyParser = require("body-parser");
 
 
 // view engine setup
-app.set("views", __dirname + "../views");
+app.set("views", __dirname + "/../views");
 app.set("view engine", "jsx");
 app.engine("jsx", require("express-react-views").createEngine());
 
 app.use(logger("dev"));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
-app.use(express.static(path.join(__dirname, "../public")));
+app.use(express.static(path.join(__dirname, "/../public")));
 
 var router = express.Router();
 
