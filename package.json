@@ -3,9 +3,13 @@
    "version": "0.0.0",
    "private": true,
    "scripts": {
+      "build": "netlify-lambda build express",
       "start": "node ./bin/www"
    },
    "dependencies": {
+      "serverless-http": "^2.3.0",
+      "netlify-lambda": "^1.6.3",
+      "body-parser": "^1.19.0",
       "@notionhq/client": "^1.0.4",
       "@tryfabric/martian": "^1.2.4",
       "cloudinary": "^1.29.0",
