@@ -1,13 +1,13 @@
 "use strict";
 
-var createError = require("http-errors");
-var express = require("express");
-var path = require("path");
-var logger = require("morgan");
-var serverless = require("serverless-http");
+const createError = require("http-errors");
+const express = require("express");
+const path = require("path");
+const logger = require("morgan");
+const serverless = require("serverless-http");
 
-var app = express();
-var bodyParser = require("body-parser");
+const app = express();
+const bodyParser = require("body-parser");
 
 
 
@@ -21,7 +21,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, "/../../public")));
 
-var router = express.Router();
+const router = express.Router();
 
 router.get("/", (req, res) =>
    res.status(400).json({
