@@ -8,6 +8,9 @@
       "start": "node ./bin/www"
    },
    "dependencies": {
+      "@babel/core",
+      "@babel/node", 
+      "@babel/preset-env", 
       "@babel/plugin-transform-flow-strip-types": "^7.22.5",
       "serverless-http": "^2.3.0",
       "netlify-lambda": "^1.6.3",
