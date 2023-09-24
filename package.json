@@ -4,7 +4,7 @@
    "private": true,
    "main": "functions/api.js",
    "scripts": {
-      "build": "netlify-lambda build ./netlify/functions",
+      "build": "netlify-lambda build ./netlify/functions"
       
    },
    "dependencies": {
