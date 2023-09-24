@@ -5,7 +5,7 @@
    "main": "functions/api.js",
    "scripts": {
       "build": "netlify-lambda build ./netlify/functions",
-      "start": "node ./bin/www"
+      
    },
    "dependencies": {
       "@babel/core": "^7.0.0",
