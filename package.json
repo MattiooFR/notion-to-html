@@ -2,7 +2,6 @@
    "name": "notion-api-3---express",
    "version": "0.0.0",
    "private": true,
-   "main": "functions/api.js",
    "scripts": {
       "build": "netlify-lambda build ./netlify/functions",
       "start": "node ./bin/www"
