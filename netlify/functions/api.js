@@ -33,7 +33,7 @@ router.get("/html-to-notion", require("./../../routes/htmlToNotion").index);
 router.get("/:pageId", require("./../../routes").index);
 
 app.use(bodyParser.json());
-app.use('/functions/api', router);  // path must route to lambda
+app.use('/.netlify/functions/api', router);  // path must route to lambda
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
