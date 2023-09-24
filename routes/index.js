@@ -217,7 +217,7 @@ exports.index = async (req, res) => {
 
       // Get all blocks
       const blocks = await getBlocks(token, pageId);
-      console.log({ ip4444: remoteAddress, pageId, token });
+      console.log({ ip4444: remoteAddress, pageId, blocks });
       // Fetch child blocks
       const blocksWithChildren = await Promise.all(
          blocks
