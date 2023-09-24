@@ -4,7 +4,7 @@
    "private": true,
    "main": "functions/api.js",
    "scripts": {
-      "build": "babel ./netlify/functions/api.js — out-file ./netlify/functions/api-compiled.js && netlify-lambda build ./netlify/functions",
+      "build": "netlify-lambda build ./netlify/functions",
       "start": "node ./bin/www"
    },
    "dependencies": {
