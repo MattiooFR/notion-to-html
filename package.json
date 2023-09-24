@@ -3,7 +3,7 @@
    "version": "0.0.0",
    "private": true,
    "scripts": {
-      "build": "babel functions/api.js — out-file api-compiled.js",
+      "build": "babel ./functions/api.js — out-file api-compiled.js",
       "start": "node ./bin/www"
    },
    "dependencies": {
