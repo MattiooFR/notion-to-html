@@ -205,7 +205,7 @@ exports.index = async (req, res) => {
       const { remoteAddress } = req.socket;
 
       // Log some info about the client
-      console.log({ ip: remoteAddress, pageId, token });
+      console.log({ ipppp: remoteAddress, pageId, token });
 
       if (missingImageParams(params, body))
          throw {
