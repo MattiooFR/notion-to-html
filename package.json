@@ -21,8 +21,8 @@
       "morgan": "~1.9.1",
       "node-fetch": "^3.2.3",
       "probe-image-size": "^7.2.3",
-      "react": "^14.0.0",
-      "react-dom": "^14.0.0",
+      "react": "^16.0.0",
+      "react-dom": "^16.0.0",
       "turndown": "^7.1.2"
    }
 }
