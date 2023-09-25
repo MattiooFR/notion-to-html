@@ -1,0 +1,27 @@
+{
+   "name": "notion-api-3---express",
+   "version": "0.0.0",
+   "private": true,
+   "scripts": {
+      "build": "npm install && npm run build"
+      
+   },
+   "dependencies": {
+      "serverless-http": "^2.3.0",   
+      "body-parser": "^1.19.0",
+      "@notionhq/client": "^1.0.4",
+      "@tryfabric/martian": "^1.2.4",
+      "cloudinary": "^1.29.0",
+      "debug": "~2.6.9",
+      "express": "~4.16.1",
+      "express-react-views": "^0.11.0",
+      "http-errors": "~1.6.3",
+      "jade": "~1.11.0",
+      "morgan": "~1.9.1",
+      "node-fetch": "^3.2.3",
+      "probe-image-size": "^7.2.3",
+      "react": "^16.0.0",
+      "react-dom": "^16.0.0",
+      "turndown": "^7.1.2"
+   }
+}
