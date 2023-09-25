@@ -1,5 +1,6 @@
 [build]
   command = "npm install && npm run build"
  functions = "functions"
+ included_files = ["./views/*.jsx"]
 
  
