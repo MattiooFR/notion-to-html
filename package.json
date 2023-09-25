@@ -8,8 +8,7 @@
       
    },
    "dependencies": {
-      "serverless-http": "^2.3.0",
-      "netlify-lambda": "^1.6.3",
+      "serverless-http": "^2.3.0",   
       "body-parser": "^1.19.0",
       "@notionhq/client": "^1.0.4",
       "@tryfabric/martian": "^1.2.4",
