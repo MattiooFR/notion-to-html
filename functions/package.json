@@ -1,11 +1,4 @@
 {
-   "name": "notion-api-3---express",
-   "version": "0.0.0",
-   "private": true,
-   "scripts": {
-      "build": "npm install && npm run build"
-      
-   },
    "dependencies": {
       "serverless-http": "^2.3.0",   
       "body-parser": "^1.19.0",
