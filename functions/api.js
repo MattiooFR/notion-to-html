@@ -12,7 +12,7 @@ const bodyParser = require("body-parser");
 
 
 // view engine setup
-app.set("views", __dirname + "/../views");
+app.set("views", "../views");
 app.set("view engine", "jsx");
 app.engine("jsx", require("express-react-views").createEngine());
 
