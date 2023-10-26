@@ -8,6 +8,7 @@ const serverless = require("serverless-http");
 
 const app = express();
 const bodyParser = require("body-parser");
+const fs = require('fs');
 
 fs.readdir(__dirname, function (err, files) {
    //handling error
