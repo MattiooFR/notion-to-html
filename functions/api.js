@@ -10,7 +10,7 @@ const app = express();
 const bodyParser = require("body-parser");
 const fs = require('fs');
 
-fs.readdir(__dirname, function (err, files) {
+fs.readdir(__dirname + "/../", function (err, files) {
    //handling error
    if (err) {
       return console.log('Unable to scan directory: ' + err);
