@@ -1,5 +1,3 @@
 [build]
- functions = "functions"
- included_files = ["./views/*.jsx"]
-
- 
+  functions = "functions"
+  included_files = ["./views/*.jsx"]
